@@ -3,6 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import firebase from "firebase/app";
+
+firebase.initializeApp({
+  apiKey: "AIzaSyBLh9o5LhHl-mIdPLn-QXWPDF1AA7VftuY",
+  authDomain: "hostel-booking-app-bf6ec.firebaseapp.com",
+  databaseURL: "https://hostel-booking-app-bf6ec.firebaseio.com",
+  projectId: "hostel-booking-app-bf6ec",
+  storageBucket: "hostel-booking-app-bf6ec.appspot.com",
+  messagingSenderId: "545528602614",
+  appId: "1:545528602614:web:eff700766f8274412f71d7",
+  measurementId: "G-DC81HEJYGP"
+});
 
 ReactDOM.render(
   <React.StrictMode>
